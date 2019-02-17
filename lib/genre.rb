@@ -20,7 +20,7 @@ def songs
 end
 
 def artists
-  songs.select do |s|
+  songs.collect do |s|
     s.artist 
   end
   
